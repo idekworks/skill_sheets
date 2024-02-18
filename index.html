@@ -1,8 +1,47 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
   <head>
-    <title>hello world</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>アジャイルタスクラップタイマー</title>
   </head>
   <body>
-    <h1>hello world</h1>
+    <h1>詳細設計書作成</h1>
+    <p id="timer">00:00:00.000</p>
+    <div class="button-container">
+      <button id="start">スタート</button>
+      <button id="stop">ストップ</button>
+      <button id="reset">リセット</button>
+      <button id="lap">ラップ</button>
+    </div>
+    <ul id="lap-list"></ul>
+
+    <script src="script.js"></script>
+
+    <div class="task-container">
+      <h2>task1</h2>
+      <ul>
+        <li>task1-1</li>
+        <li>task1-2</li>
+      </ul>
+    </div>
+
+    <div class="task-container">
+      <h2>task2</h2>
+      <ul>
+        <li>task2-1</li>
+        <li>task2-2</li>
+        <li><input type="checkbox" />task2-3</li>
+      </ul>
+    </div>
+
+    <div class="task-container">
+      <h2>task3</h2>
+      <ul>
+        <li>task3-1</li>
+        <li>task3-2</li>
+      </ul>
+    </div>
   </body>
 </html>
